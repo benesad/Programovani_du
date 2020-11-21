@@ -21,3 +21,8 @@ lze použít defaultní `6371,11 km`.
 ### Chybná zadání parametrů
 Program je proti chybným parametrům od uživatele pojištěn několika funkcemi, které kontrolují, 
 zda uživatel zadá to, co je žádáno. v Případě, že je vstup nevyhovující, chce program vstup znovu.
+
+## Výsledek
+Výsledný obraz je vykreslení sítě zvoleného geografického zobrazní, které obsahuje volitelné body. 
+Body jdou zadat jako celé, ale i jako desetinné místo, mohou být tedy zadány vskutku konkrétně.
+Síť je vykreslena v modelu turtle a body `x, y`, které spočítá vypíše do konzole. 
