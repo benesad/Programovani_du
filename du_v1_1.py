@@ -35,6 +35,8 @@ def float_check(what):
 
 
 def load_points():
+    """Zde se program ptá na body, které uživatel zadává, používá u toho předchozí funkci, 
+    kde otestuje validitu vstupu, s body je dále počítáno ve funkcích, které převádejí"""
     first = True
     x_points = []
     y_points = []
